@@ -6,7 +6,7 @@ const products = [
     age: +18,
     desc: "Extra time, stamina improve, reliable latex quality",
     price: 220,
-    img: "durex.jpg",
+    img: "../durex.jpg",
   },
   {
     name: "Durex invisible/Ultra thin",
