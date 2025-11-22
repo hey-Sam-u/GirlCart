@@ -13,28 +13,28 @@ const products = [
     age: +18,
     desc: "High sensitive, electronic testing",
     price: 225,
-    img: "Durex_invisible.jpg",
+    img: "../Durex_invisible.jpg",
   },
   {
     name: "KamaSutra Superthin",
     age: +18,
     desc: "Provide longlast varient, feel natural superthin varient",
     price: 150,
-    img: "KamaSutra.jpg",
+    img: "../KamaSutra.jpg",
   },
   {
     name: "Skore ZigZag/ flavored",
     age: +18,
     desc: "Unique texture, zigzag desine, skore flavore range",
     price: 153,
-    img: "Skore_ZigZag.jpg",
+    img: "../Skore_ZigZag.jpg",
   },
   {
     name: "Bleu(vegan/hypoallergenic)",
     age: +18,
     desc: "Latex ethically sourced. low protein level, low chemical- nasties.",
     price: 249,
-    img: "Bleu.jpg",
+    img: "../Bleu.jpg",
   },
 ];
 
