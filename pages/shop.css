@@ -254,3 +254,54 @@ body {
     flex-direction: column;
   }
 }
+/* ========================
+   BOYS SHOP BUTTON
+======================== */
+.boy-shop-btn {
+  display: inline-block;
+  margin: 40px auto; /* Center vertically with spacing */
+  padding: 15px 30px;
+  background: #ff4d6d;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  animation: bounce-btn 2s infinite;
+}
+
+/* Hover effect */
+.boy-shop-btn:hover {
+  background: #cc0033;
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Center the button container */
+.button-container {
+  text-align: center;
+}
+
+/* Button animation */
+@keyframes bounce-btn {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* ========================
+ RESPONSIVE
+======================== */
+@media (max-width: 500px) {
+  .boy-shop-btn {
+    width: 80%;
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+}
