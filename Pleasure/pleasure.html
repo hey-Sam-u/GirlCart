@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Men's Toys Shop - PATIL VAADI</title>
-    <link rel="stylesheet" href="menshop.css" />
+    <title>Pleasure Toys Shop - PATIL VAADI</title>
+    <link rel="stylesheet" href="pleasure.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -12,11 +12,13 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header class="men-header">
-      <div class="logo"><i class="fa-solid fa-mars"></i> MEN'S TOYS</div>
+    <header class="pleasure-header">
+      <div class="logo"><i class="fa-solid fa-heart"></i> Pleasure Toys</div>
       <nav>
         <a href="../index.html">Home</a>
-        <a href="mencart.html"><i class="fas fa-shopping-cart"></i> Cart</a>
+        <a href="pleasurecart.html"
+          ><i class="fas fa-shopping-cart"></i> Cart</a
+        >
       </nav>
     </header>
 
@@ -24,21 +26,15 @@
     <div class="search-bar">
       <input type="text" id="searchInput" placeholder="Search by name..." />
     </div>
-    <a href="track.html" class="track-btn"
-      >Track Your Order <i class="fas fa-map-marker-alt"></i
-    ></a>
-    <a href="../Pleasure/pleasure.html" class="goPleasureBtn"
-      >Go to Pleasure Store</a
-    >
 
     <!-- PRODUCTS GRID -->
     <div class="shop-container" id="shopContainer">
-      <!-- Product cards inserted by JS -->
+      <!-- Product cards with swipeable images inserted by JS -->
     </div>
 
     <!-- Popup -->
     <div id="popup" class="popup">Added to Cart!</div>
 
-    <script src="menshop.js"></script>
+    <script src="pleasure.js"></script>
   </body>
 </html>

@@ -182,3 +182,22 @@ body {
 .track-btn:hover {
   background: #00cc66;
 }
+.goPleasureBtn {
+  display: block;
+  width: 90%;
+  margin: 15px auto;
+  padding: 12px;
+  background: #ff1493;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.goPleasureBtn:hover {
+  background: #ff4da6;
+  transform: scale(1.05);
+}
